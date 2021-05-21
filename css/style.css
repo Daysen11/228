@@ -1,0 +1,364 @@
+* {
+    outline: 1px solid orange;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+    font-size:14px;
+    line-height:20px;
+    font-family: verdana;
+    color: #000000;
+    
+        background-color: #133132;
+}
+.site-header {
+    display: block;
+  min-height: 100px;
+  padding-top: 30px;
+  padding-bottom: 105px;
+    
+    background-color: #222222;
+    color:white;
+}
+.container {
+width: 1040px;
+  margin: 0 auto;
+   padding-left: 80px;
+}
+.site-header .container {
+    
+  background-image: url(../img/moon-rocket.png);
+  background-repeat: no-repeat;
+  background-position: 600px 90px;
+    height: 540px;
+}
+.main-nav {
+    display: flex;
+    margin-top: 30px;
+    width: 960px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 60px;
+}
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+    
+    list-style: none;
+}
+.site-menu a {
+  display: block;
+  margin-right: 40px;
+    
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contacts-menu {
+  display: flex;
+  justify-content: flex-end;
+   width: 480px;
+  margin-top: 30px;
+  margin-left: auto;
+    margin-bottom: 0px;
+  padding: 0;
+
+  list-style: none;
+   /*font-size: 0;*/
+}
+.contacts-menu a {
+    display: block;
+  width: 17px;
+  height: 17px;
+}
+.visually-hidden{
+    font-size: 0;
+}
+.contacts-menu li {
+  margin-left: 10px;
+}
+
+.contacts-menu a:hover {
+  opacity: 0.8;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+.contacts-menu .icon-mail {
+  background-image: url(../img/mail-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.contacts-menu .icon-phone {
+    
+  background-image: url(../img/phone-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+.about-us {
+  width: 300px;
+  padding-left: 120px;
+}
+
+.about-us h1 {
+  margin: 0;
+  margin-bottom: 40px;
+    margin-top: 100px;
+  padding: 0;
+    
+     font-family: Courier New ;
+    color:white;
+    font-size:45px;
+    line-height: 40px;
+}
+.about-us p {
+  margin: 0;
+  margin-bottom: 50px;
+  padding-left: 5px;
+}
+.btn-yellow {
+  position: relative;
+
+  display: inline-block;
+  width: 195px;
+  padding: 0 25px;
+    
+      font-family: verdana;
+     font-weight:bold;
+    font-size:14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#222222;
+    
+    cursor:pointer;
+    border-radius: 50px;
+}
+.btn-yellow:after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  top: 17px;
+
+  width: 19px;
+  height: 16px;
+
+  background-image: url(../img/right-arrow-dark.png);
+}
+
+.btn-yellow {
+  background-color: #feca30;
+}
+
+.btn-yellow:hover {
+  background-color: white;
+}
+
+.btn-yellow:active {
+  background-color: #c1a300;
+}
+.features {
+    padding: 80px 0;
+    background-color: #131313
+}
+.features-list {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.features-list li {
+    position: relative;
+    width: 180px;
+    margin-right: 80px;
+    padding-top: 120px;
+    padding-bottom:50px; 
+    
+    color:#d4d4d4
+}
+.features-list li::after {
+  content: "";
+
+  position: absolute;
+  top: 50px;
+  left: 0;
+
+  width: 60px;
+  height: 68px;
+    
+}
+.feature-made-in-russia:after {
+    background-image: url(../img/advantage-icon-1.png);
+}
+.feature-food:after {
+    background-image: url(../img/advantage-icon-2.png);
+}
+.feature-pilots:after {
+    background-image: url(../img/advantage-icon-3.png);
+}
+.feature-moon-rover:after {
+    background-image: url(../img/advantage-icon-4.png);
+}
+.columns-container {
+    display: flex;
+}
+.columns-container .left-column {
+    width: 440px;
+    margin-right: 80px;
+}
+.columns-container .right-column {
+  width: 440px;
+}
+
+.moon-vacation {
+  padding-top: 80px;
+  padding-bottom: 45px;
+    
+    background-color: white;
+}
+.moon-vacation .lead {
+  margin-top: 0;
+  margin-bottom: 50px;
+    
+    font-family: Courier New;
+     font-size: 24px;
+ line-height: 29px;
+}
+.recommendations {
+  padding-top: 50px;
+  padding-bottom: 55px;
+    
+    background-color: white;
+}
+
+.recommendations h3 {
+  margin-top: 0;
+  margin-bottom: 35px;
+    
+    font-family: Courier New;
+     font-size: 24px;
+ line-height: 29px;
+}
+.recommendations-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+
+  list-style: none;
+}
+.recommendations-list li {
+  position: relative;
+  margin-bottom: 20px;
+     position: relative;
+}      
+.recommendations-list li:before{
+    content:"Цой жив";
+    width: 8px;
+    height:8px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    background-color:#feca30;
+    border-radius:50%;
+    
+    
+    
+}
+.site-footer {
+  padding-top: 50px;
+  padding-bottom: 80px;
+    
+    color: #ffffff;
+    background-color: #131313;
+}
+.footer-columns-container {
+  display: flex;
+}
+.footer-columns-container .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 80px;
+}
+.footer-columns-container .right-column {
+width: 780px;
+  padding-top: 35px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+    
+    color:white;
+}
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.logo-container p {
+    font-size: 14px;
+}
+.copyrights {
+  margin-top: auto;
+    
+    color: #555555;
+}
+.footer-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-menu > li {
+  width: 180px;
+  margin-right: 80px;
+}
+.footer-submenu-title {
+  display: block;
+  
+    position: relative;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.footer-submenu-title:before {
+    content: "";
+    
+    position: absolute;
+    left: 1px; 
+    bottom: -18px;
+    
+    width: 180px;
+    height: 3px;
+    
+    background-color: #555555;
+}
+.footer-submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    
+     margin-top: 50px;
+}
+.footer-submenu > li {
+  margin-bottom: 20px;
+}
+.footer-submenu a {
+  text-decoration: none;
+    color: #888888;
+}
