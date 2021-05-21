@@ -1,6 +1,6 @@
-* {
+/* {
     outline: 1px solid orange;
-}
+}*/
 body {
   margin: 0;
   padding: 0;
@@ -265,7 +265,7 @@ width: 1040px;
      position: relative;
 }      
 .recommendations-list li:before{
-    content:"Цой жив";
+    content:"Цой мёртв";
     width: 8px;
     height:8px;
     position: absolute;
